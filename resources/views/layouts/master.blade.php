@@ -28,8 +28,10 @@
     <p>Generate your dummy users data <a href='/dummy'>here.</a></p>
 </div>
 
+
 <section>
-  @yield('content')
+
+    @yield('content')
 </section>
 
 <div class="footer">

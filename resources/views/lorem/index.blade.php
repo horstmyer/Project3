@@ -12,12 +12,11 @@ Use it to add specific things that *this* View needs in the head,
 such as a page specific styesheets.
 --}}
 @section('head')
-
 @stop
 
 
 @section('content')
-    <div class="output">
+<div class="output">
     <h2>Lorem Ipsum Generator</h2>
     <p>Please enter how many paragraphs you require:</p>
     <form method="POST" action="/lorem">
