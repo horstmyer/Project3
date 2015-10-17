@@ -10,7 +10,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.master');
 });
+
+Route::get('/lorem', 'LoremController@getIndex');
+Route::post('/lorem', 'loremController@postIndex');
