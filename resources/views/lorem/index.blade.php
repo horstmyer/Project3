@@ -17,7 +17,8 @@ such as a page specific styesheets.
 
 
 @section('content')
-    <h1>Lorem Ipsum Generator</h1>
+    <div class="output">
+    <h2>Lorem Ipsum Generator</h2>
     <p>Please enter how many paragraphs you require:</p>
     <form method="POST" action="/lorem">
             <input type='hidden' name='_token' value='{{ csrf_token() }}'>
@@ -31,6 +32,7 @@ such as a page specific styesheets.
             @endif
             <input type="submit" value="Generate Lorem">
     </form>
+  </div>
 @stop
 
 {{--
