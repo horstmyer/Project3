@@ -16,7 +16,7 @@
 <body style="background-color:#650f3c">
 
   <div class="header">
-  <img src="/images/DevFriendLogo.jpg" alt="Developers Friend"/>
+  <a href='/'><img src="/images/DevFriendLogo.jpg" alt="Developers Friend"/></a>
   <h2>Here you will find useful Tools to use in your development efforts.</h2>
       <hr/>
     <h3>Lorem Ipsum</h3>
@@ -27,8 +27,9 @@
     <p>With this tool you can generate dummy data that may be useful in your development efforts to create users.  Choose the number of users and what additional data you would like to include.</p>
     <p>Generate your dummy users data <a href='/dummy'>here.</a></p>
 </div>
-
-
+<div class="output">
+<hr/>
+</div>
 <section>
 
     @yield('content')
