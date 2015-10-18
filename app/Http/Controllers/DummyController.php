@@ -42,8 +42,9 @@ class DummyController extends Controller{
               				$users[$i]['profile'] = $profile;
         	   			}
         		}
-  	dd($users);
-        return view(dummy.postIndex)->with('users', $users);
+  	//dd($users);
+        return view('dummy.postIndex')->with(['users' => $users]);
+    
       }
 
 }

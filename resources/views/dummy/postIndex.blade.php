@@ -21,7 +21,9 @@ such as a page specific styesheets.
     <section>
       <div class="output">
         <h2>Your Data:</h2>
-      
+        @foreach ($users as $user)
+                <p>{{ $user }}</p>
+              @endforeach
     </div>
     </section>
 
