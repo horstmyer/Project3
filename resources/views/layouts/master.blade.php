@@ -20,7 +20,7 @@
   <h2>Here you will find useful Tools to use in your development efforts.</h2>
       <hr/>
     <h3>Lorem Ipsum</h3>
-    <p>Lorem Ipsum is dummy text that you can use whilst you are waiting to get the real copy.  This allows you to get a better understanding of how your pages might look with real words.W  With this tool you can choose from 1 to 9 paragraphs of dummy words. </p>
+    <p>Lorem Ipsum is dummy text that you can use whilst you are waiting to get the real copy.  This allows you to get a better understanding of how your pages might look with real words.  With this tool you can choose from 1 to 9 paragraphs of dummy words. </p>
     	<p>Generate your paragraphs <a href='/lorem'>here.</a></p>
       <hr/>
       <h3>Faker Data</h3>

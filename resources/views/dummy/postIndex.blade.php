@@ -21,6 +21,7 @@ such as a page specific styesheets.
     <section>
       <div class="output">
         <h2>Your Data:</h2>
+          <hr/>
           @foreach ($users as $user)
             <h4>Name: {{ $user['name'] }}</h4>
           @if( isset($user['email']) )
@@ -30,6 +31,7 @@ such as a page specific styesheets.
             <p>Profile: {{ $user['profile'] }}</p>
           @endif
           @endforeach
+
       </div>
     </section>
 
