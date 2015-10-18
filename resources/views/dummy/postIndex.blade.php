@@ -21,10 +21,16 @@ such as a page specific styesheets.
     <section>
       <div class="output">
         <h2>Your Data:</h2>
-        @foreach ($users as $user)
-                <p>{{ $user }}</p>
-              @endforeach
-    </div>
+          @foreach ($users as $user)
+            <h4>Name: {{ $user['name'] }}</h4>
+          @endforeach
+          @if( isset($user['email']) )
+            <p>Email: {{ $user['email'] }}</p>
+          @endif
+          @if( isset($user['profile']) )
+            <p>Profile: {{ $user['profile'] }}</p>
+          @endif
+      </div>
     </section>
 
 @stop

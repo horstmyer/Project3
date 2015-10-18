@@ -43,8 +43,9 @@ class DummyController extends Controller{
         	   			}
         		}
   	//dd($users);
+
+
         return view('dummy.postIndex')->with(['users' => $users]);
-    
       }
 
 }
