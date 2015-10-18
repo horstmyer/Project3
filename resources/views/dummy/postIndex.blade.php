@@ -23,13 +23,13 @@ such as a page specific styesheets.
         <h2>Your Data:</h2>
           @foreach ($users as $user)
             <h4>Name: {{ $user['name'] }}</h4>
-          @endforeach
           @if( isset($user['email']) )
             <p>Email: {{ $user['email'] }}</p>
           @endif
           @if( isset($user['profile']) )
             <p>Profile: {{ $user['profile'] }}</p>
           @endif
+          @endforeach
       </div>
     </section>
 
