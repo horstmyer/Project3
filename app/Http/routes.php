@@ -17,7 +17,7 @@ Route::get('/', function () {
 });
 
 Route::get('/lorem', 'LoremController@getIndex');
-Route::post('/lorem', 'loremController@postIndex');
+Route::post('/lorem', 'LoremController@postIndex');
 
 Route::get('/dummy', 'DummyController@getIndex');
 Route::post('/dummy', 'DummyController@postIndex');

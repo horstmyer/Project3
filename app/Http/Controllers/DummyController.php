@@ -16,15 +16,15 @@ class DummyController extends Controller{
   }
 
   public function postIndex(Request $request) {
-
+    //Validate the number of paragraphs
   	$this->validate($request, [
         		'number' => 'required|numeric',
            	]);
-
+    //Get all the inputs
   	$data = $request->all();
 
-        	// Create users
-        	$faker = Faker\Factory::create();
+  	// Create users
+  	$faker = Faker\Factory::create();
 
   	$users = array();
     $number = (\Input::get('number'));
@@ -43,11 +43,8 @@ class DummyController extends Controller{
         	   			}
         		}
   	//dd($users);
-
-
         return view('dummy.postIndex')->with(['users' => $users]);
       }
-
 }
     //return "Show the Dummy form";
     //return view('dummy.postindex');

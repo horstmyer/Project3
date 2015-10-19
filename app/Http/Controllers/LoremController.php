@@ -15,16 +15,16 @@ class LoremController extends Controller{
   }
 
   public function postIndex(Request $request) {
+        //Validate number of dummies
         $this->validate($request, [
           'number' => 'required|numeric',
         ]);
+        //Generate Paragrtaphs
         $generator = new \Badcow\LoremIpsum\Generator();
-        		// Generate paragraphs
-        		$paragraphs = $generator->getParagraphs(\Input::get('number'));
-        		//  dd($paragraphs);
+
+        $paragraphs = $generator->getParagraphs(\Input::get('number'));
+        //  dd($paragraphs);
             return view('lorem.postIndex')->with(['paragraphs' => $paragraphs]);
-
-
 }
 
       //  $generator = new Badcow\LoremIpsum\Generator();
