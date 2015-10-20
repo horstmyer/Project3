@@ -1,64 +1,68 @@
 @charset "utf-8";
 /* CSS Document */
-
 .header {
-	width: 1000px;
-	height: 455px;
-	margin-left: auto;
-	margin-right: auto;
-	color: #FFFFFF;
-	background-color: #650F3C;
-	font-size: 14px;
+        width: 1000px;
+        height: 455px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+        background-color: #650F3C;
+        font-size: 14px;
 
 }
 .header p {
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: medium;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: medium;
+        font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
-.header a {
+.header img {
+        float: left;
+}
+.header .button a {
 	color: #FFFFFF;
-
 }
-.output {
-	width: 1000px;
+.header .button {
+	border-radius: 25px;
+	text-align: center;
+	background-color: #65630F;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	min-height: 10px;
-	background-color: #65630F;
-	border-radius: 25px;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	text-align: center;
+	margin-bottom: 5px;
+	width: 150px;
+	float: right;
+	height: 50px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.output {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        min-height: 10px;
+        background-color: #65630F;
+        border-radius: 25px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        text-align: center;
 }
 .output h2 {
-	text-align: center;
-	margin-bottom: 20px;
-	padding-top: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 25px;
 }
 .output .result {
-	border-radius: 25px;
-	min-height: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	background-color: #650F3C;
-}
-.output .footer {
-	text-align: center;
-}
-
-.header img {
-	float: left;
+        border-radius: 25px;
+        min-height: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #650F3C;
 }
 .footer {
-	text-align: center;
-}
-.output .box {
-	text-align: center;
-	margin-bottom: 20px;
-	padding-top: 25px;
+        text-align: center;
 }

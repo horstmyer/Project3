@@ -20,12 +20,13 @@
   		<h2>Here you will find useful Tools to use in your development efforts.</h2>
       	<hr/>
     	<h3>Lorem Ipsum Generator</h3>
+        <p class="button"><a href='/dummy'>Generate<br /> Paragraphs</a></p>
     		<p>Lorem Ipsum is dummy text that you can use whilst you are waiting to get the real copy.  This allows you to get a better understanding of how your pages might look with real words.  With this tool you can choose from 1 to 9 paragraphs of dummy words. </p>
-    		<p>Generate your paragraphs <a href='/lorem'>here.</a></p>
-      	<hr/>
+        <hr>
       	<h3>Fake Data Generator</h3>
+          <p class="button"><a href='/dummy'>Generate Dummy Users</a></p>
     		<p>With this tool you can generate dummy data that may be useful in your development efforts to create users.  Choose the number of users and what additional data you would like to include.</p>
-    		<p>Generate your dummy users data <a href='/dummy'>here.</a></p>
+
 	</div>
     <!-- Begin Output Area -->
 	<div class="output">
